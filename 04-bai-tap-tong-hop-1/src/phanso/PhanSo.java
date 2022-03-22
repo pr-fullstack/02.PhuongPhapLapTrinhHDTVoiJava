@@ -33,7 +33,9 @@ public class PhanSo {
             tu = -tu;
         }
 
-        if (mau == 1) {
+        if (tu == 0) {
+            System.out.println(0);
+        } else if (mau == 1) {
             System.out.println(tu);
         } else {
             System.out.printf("%s/%s\n", tu, mau);
@@ -46,6 +48,10 @@ public class PhanSo {
 
         int min = a < b ? a : b;
         int max = a > b ? a : b;
+
+        if (min == 0) {
+            return 1;
+        }
 
         if (max % min == 0) {
             return min;
@@ -95,5 +101,21 @@ public class PhanSo {
         thuong.mau = this.mau * ps.tu;
 
         return thuong;
+    }
+
+    int kiemTraPS() {
+        double thuong = (double) tu / mau;
+
+        if (thuong > 0) {
+            return 1;
+        }
+
+        if (thuong == 0) {
+            return 0;
+        }
+
+        return -1;
+
+        // return thuong > 0 ? 1 : thuong == 0 ? 0 : -1;
     }
 }
