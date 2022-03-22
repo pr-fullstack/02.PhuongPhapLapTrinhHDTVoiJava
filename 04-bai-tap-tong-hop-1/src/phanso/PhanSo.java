@@ -57,4 +57,43 @@ public class PhanSo {
             }
         }
     }
+
+    /**
+     *  a / b + c / d = (a * d + b * c) / (b * d)
+     */
+    PhanSo tinhTong(PhanSo ps) {
+        PhanSo tong = new PhanSo();
+
+        tong.tu = this.tu * ps.mau + this.mau * ps.tu;
+        tong.mau = this.mau * ps.mau;
+
+        return tong;
+    }
+
+    PhanSo tinhHieu(PhanSo ps) {
+        PhanSo hieu = new PhanSo();
+
+        hieu.tu = this.tu * ps.mau - this.mau * ps.tu;
+        hieu.mau = this.mau * ps.mau;
+
+        return hieu;
+    }
+
+    PhanSo tinhTich(PhanSo ps) {
+        PhanSo tich = new PhanSo();
+
+        tich.tu = this.tu * ps.tu;
+        tich.mau = this.mau * ps.mau;
+
+        return tich;
+    }
+
+    PhanSo tinhThuong(PhanSo ps) {
+        PhanSo thuong = new PhanSo();
+
+        thuong.tu = this.tu * ps.mau;
+        thuong.mau = this.mau * ps.tu;
+
+        return thuong;
+    }
 }
