@@ -1,0 +1,6 @@
+1,Nguyễn Ngọc Quang,12/03/1995,Quảng Trị,10000000,3.56
+1,Nguyễn Văn A,15/07/2000,Đà Nẵng,10000000,2.70
+2,Nguyễn Văn B,15/09/1996,Quảng Nam,22
+2,Nguyễn Văn C,19/08/1998,Huế,23
+3,Nguyễn Văn D,15/09/1999,TP Hồ Chí Minh,100
+3,Nguyễn Văn E,19/08/2002,Hà Nội,156
