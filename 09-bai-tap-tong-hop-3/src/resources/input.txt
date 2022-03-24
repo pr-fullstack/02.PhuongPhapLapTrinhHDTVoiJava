@@ -1,0 +1,7 @@
+2,Nguyễn Ngọc Quang,Nam,12/03/1995,Quảng Trị,Công nghệ thông tin,100000,80
+2,Nguyễn Văn A,Nữ,15/08/1998,Đà Nẵng,Điện tử viễn thông,105000,65
+1,Nguyễn Văn B,Nam,16/02/2005,Hà Nội,MaSV0001,8.2
+1,Nguyễn Văn C,Nữ,19/09/2006,TP Hồ Chí Minh,MaSV0002,7.6
+1,Nguyễn Văn D,Nữ,18/01/2006,Huế,MaSV0003,7.1
+1,Nguyễn Văn E,Nam,20/02/2006,Quảng Nam,MaSV0004,7.4
+1,Nguyễn Văn F,Nam,23/07/2006,Quảng Bình,MaSV0005,9.5
