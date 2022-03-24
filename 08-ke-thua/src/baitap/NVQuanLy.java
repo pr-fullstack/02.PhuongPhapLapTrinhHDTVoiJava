@@ -1,5 +1,6 @@
 package baitap;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class NVQuanLy extends NhanVien {
@@ -19,6 +20,11 @@ public class NVQuanLy extends NhanVien {
         super.xuatThongTin();
         System.out.println("Lương cơ bản: " + luongCoBan);
         System.out.println("Hệ số lương: " + heSoLuong);
+        System.out.println("Lương: " + new BigDecimal(tinhLuong()));
+    }
+
+    public double tinhLuong() {
+        return this.luongCoBan * this.heSoLuong;
     }
 
     public double getLuongCoBan() {
